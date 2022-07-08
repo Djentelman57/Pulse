@@ -1,0 +1,15 @@
+@media (max-width: 991px) {
+    .catalog-item {
+        max-width: 32%;
+        &__footer {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .catalog-item {
+        max-width: 49%;
+    }
+}
